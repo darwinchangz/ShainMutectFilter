@@ -40,4 +40,5 @@ Rscript ~/Scripts/Bulk_Filter.R "${direc}Mutations/${samplename}_Tumor_SNP_Maste
 qsub -l vmem=16gb ~/Ji_SCC/scripts/${samplename}_Mutect2_tumor.sh
 done < <(ls -d ~/Ji_SCC/AJ-{08..09}/)
 
+if(!require(psych)){install.packages("psych")}
 add - genome input for perl scripts, tumor_cellularity, second bulk filter
