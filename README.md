@@ -5,6 +5,7 @@ Paper:
 
 ## Usage
 Install the funcotator_dataSources under Pre-packaged Data Sources- https://gatk.broadinstitute.org/hc/en-us/articles/360036364752-Funcotator
+
 v1.6.20190124 was the version used for our Funcotator source
 
 ```
