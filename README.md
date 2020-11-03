@@ -1,9 +1,10 @@
 # ShainMutectFilter
-Shain Lab Procedure for cSCC Meta Analysis Project
+Shain Lab for cSCC Meta Analysis Project
 
 Paper: 
 
 ## Usage
+### Disclaimer: This procedure does not call indels.
 Install the funcotator_dataSources under Pre-packaged Data Sources - https://gatk.broadinstitute.org/hc/en-us/articles/360036364752-Funcotator
 
 v1.6.20190124 was the version used for our Funcotator source
