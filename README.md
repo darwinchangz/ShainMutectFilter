@@ -27,5 +27,4 @@ $ MML
 * R-3.6.1+
 * samtools-1.7+
 
-if(!require(psych)){install.packages("psych")}
 add - genome input for perl scripts, tumor_cellularity, second bulk filter
