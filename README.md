@@ -16,7 +16,7 @@ $ tar xzf funcotator_dataSources.v1.6.20190124s.tar.gz
 3. Take Mutect2 tumor.vcf output and annotate using Funcotator
 ```
 $ gatk Funcotator --variant tumor.vcf --reference hg19.fa --ref-version hg19 -- data-sources-path funcotator_dataSources --output tumor.funcotator.txt --output-file-format MAF
-$ MML
+$ ./Mutect2_Filter.sh Tumor.funcotator.txt Tumor.bam Normal.bam genome.fa (male/female)
 
 ```
 
@@ -27,4 +27,4 @@ $ MML
 * R-3.6.1+
 * samtools-1.7+
 
-add - genome input for perl scripts, tumor_cellularity, second bulk filter
+add - genome input for perl scripts, tumor_cellularity, second bulk filtera
