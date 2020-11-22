@@ -26,5 +26,3 @@ $ ./Mutect2_Filter.sh Tumor.funcotator.txt Tumor.bam Normal.bam genome.fa (male/
 * gatk-4.1.2.0+
 * R-3.6.1+
 * samtools-1.7+
-
-add - genome input for perl scripts, tumor_cellularity, second bulk filter
