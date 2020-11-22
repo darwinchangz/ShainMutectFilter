@@ -4,7 +4,7 @@ Shain Lab for cSCC Meta Analysis Project
 Paper: 
 
 ## Usage
-### Disclaimer: This procedure does not attempt to call indels.
+### Disclaimer: This procedure currently only works with bams aligned to the hg19 assembly. This procedure does not attempt to call indels.
 
 1. Install GATK (v4.1.2.0) and call mutations using Mutect2
 2. Download Funcotator Data Sources (20GB of storage required)
@@ -27,4 +27,4 @@ $ ./Mutect2_Filter.sh Tumor.funcotator.txt Tumor.bam Normal.bam genome.fa (male/
 * R-3.6.1+
 * samtools-1.7+
 
-add - genome input for perl scripts, tumor_cellularity, second bulk filtera
+add - genome input for perl scripts, tumor_cellularity, second bulk filter
