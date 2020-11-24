@@ -17,7 +17,6 @@ $ tar xzf funcotator_dataSources.v1.6.20190124s.tar.gz
 ```
 $ gatk Funcotator --variant tumor.vcf --reference hg19.fa --ref-version hg19 -- data-sources-path funcotator_dataSources --output tumor.funcotator.txt --output-file-format MAF
 $ ./ShainMutectFilter/scripts/Mutect2_Filter.sh Tumor.funcotator.txt Tumor.bam Normal.bam genome.fa (male/female)
-
 ```
 
 ## Dependencies
