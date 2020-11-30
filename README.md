@@ -1,7 +1,7 @@
 # ShainMutectFilter
 Shain Lab for cSCC Meta Analysis Project
 
-Paper: 
+Paper: https://github.com/darwinchangz/ShainMutectFilter/blob/master/Manuscript.pdf
 
 ## Usage
 ### Disclaimer: This procedure currently only works with bams aligned to the hg19 assembly. This procedure does not attempt to call indels.
