@@ -1,6 +1,8 @@
 # Shain Lab Indels Filter
-## Usage: 
+## Usage
 ### Disclaimer: Must run pindel (v0.2.5) first on both normal and tumor bams
+
+1. Run Pindel on Normal and Tumor bams
 ```
 $ Rscript ./ShainMutectFilter/scripts/indels/Pindel_Filter.R normal_indel.vcf tumor_indel.vcf
 $ gatk Funcotator --variant tumor_indel.vcf --reference hg19.fa --ref-version hg19 -- data-sources-path funcotator_dataSources --output tumor.func_indel.txt --output-file-format MAF
