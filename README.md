@@ -4,7 +4,7 @@ Shain Lab for cSCC Meta Analysis Project
 Manuscript: https://www.biorxiv.org/content/10.1101/2020.12.13.422581v1
 
 ## Usage
-### Disclaimer: This procedure currently only works with bams aligned to the hg19 assembly. This procedure does not attempt to call indels.
+### Disclaimer: This procedure currently only works with bams aligned to the hg19 assembly. To call indels, check out the Indels folder.
 
 1. Install GATK (v4.1.2.0) and call mutations using Mutect2
 2. Download Funcotator Data Sources (20GB of storage required)
